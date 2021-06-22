@@ -1,0 +1,101 @@
+.postCenter {
+    margin-top: 130px;
+    width: 100%;
+}
+
+.postForm {
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 
+.postThum {
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 20px;
+} */
+
+.postThum {
+    width: calc((100% - 10rem) / 5);
+    height: 20rem;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px;
+    transition: 0.5s all;
+    margin: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.postThum:hover {
+    transform: translateY(-10px);
+    box-shadow: rgb(0 0 0 / 8%) 0px 12px 20px 0px;
+}
+
+.codeThum {
+    width: 100%;
+    height: 60%;
+    /* background-color: yellow; */
+}
+
+.codeThum img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.postInfo {
+    width: 100%;
+    height: 40%;
+}
+
+.postInfo h4 {
+    margin: 1rem 0;
+}
+
+.postInfo div {
+    font-size: 0.875rem;
+    height: 40%;
+    margin: 0;
+    text-overflow: ellipsis;
+}
+
+.postInfo div h1 {
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.postInfo span {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+
+.newpost {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    margin: 130px auto 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.bodyContent {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bodyContent img {
+    width: 100%;
+}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Router from './view/Route/Router';
+
+const Posts = importAll(require.context('../post'));
+
+function importAll(r) {
+    let files = [];
+    let count = 0;
+    r.keys().map((item, index) => {
+        if (item.indexOf('js') > -1) {
+            files[count] = r(item);
+            count += 1;
+        }
+    });
+    return files;
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // console.log(Pages);
+    return <Router posts={Posts} />;
 }
 
 export default App;

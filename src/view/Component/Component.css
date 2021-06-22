@@ -1,0 +1,70 @@
+.infoContain {
+    margin-top: 130px;
+    width: 100%;
+}
+
+.columnContain {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnContain hr {
+    width: 80vw;
+    border: 0;
+    height: 2px;
+    background-color: black;
+    margin: 50px auto 50px auto;
+}
+
+.centerContain {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto 0 auto;
+}
+
+.infoMySelf {
+    height: 215px;
+}
+
+.infoMySelf img {
+    width: 20%;
+    margin-right: 50px;
+}
+
+.infoMySelf h2 {
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.portfolio {
+    flex-direction: column;
+}
+
+.pfForm {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pfForm img {
+    width: 50%;
+}
+
+.pfForm div {
+    width: 40%;
+    padding: 10px;
+    background-color: black;
+}
+
+.tag,
+.body {
+    color: #fff;
+    display: inline;
+}
+
+.tag {
+    color: rgb(29, 138, 196);
+}
+
+.body {
+    margin-left: 4px;
+}
