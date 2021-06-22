@@ -36,9 +36,9 @@ const NewPost = ({ posts }) => {
     });
 
     console.log(post);
-    const disqusShortname = 'https-hansolbangul-github-io';
+    const disqusShortname = 'http-hansolbangul-com-2';
     const disqusConfig = {
-        url: 'http://localhost:3000',
+        url: 'http://hansolbangul.com/',
         identifier: 'article-id',
         title: 'Title of Your Article',
     };
