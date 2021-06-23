@@ -5,12 +5,32 @@
 }
 
 .aboutText {
-    width: 100% -4rem;
-    margin: 0 2rem;
+    width: 95%;
+    margin: auto 0;
+    align-self: center;
 }
 
 .aboutText p {
     margin: 0;
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 0.375em;
+    line-height: 1.4;
+}
+
+.emphasis {
+    display: inline;
+    color: red;
+}
+
+.chart {
+    width: 95%;
+    margin: auto 0;
+    align-self: center;
+    /* visibility: hidden; */
+}
+
+tspan {
+    font-size: 0.8rem;
+    font-weight: 700;
 }

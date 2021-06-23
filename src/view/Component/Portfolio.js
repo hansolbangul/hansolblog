@@ -10,7 +10,6 @@ import coinprice from '../Img/coinPrice.png';
 const photoArr = [tellus, movie, coinprice, coingkoo, cssgame, hwitter];
 
 const Portfolio = () => {
-    console.log(photoArr);
     return (
         <div className="centerContain portfolio">
             <h3>PORTFOLIO</h3>

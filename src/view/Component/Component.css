@@ -23,16 +23,16 @@
 }
 
 .infoMySelf {
-    height: 215px;
+    height: 10rem;
 }
-
+/* 
 .infoMySelf img {
     width: 20%;
     margin-right: 50px;
-}
+} */
 
 .infoMySelf h2 {
-    font-size: 35px;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -83,8 +83,24 @@
     display: inline;
 }
 
+.contactForm {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact {
+    font-size: 3rem;
+    margin: 0;
+}
+.email {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
 .tag {
     color: rgb(29, 138, 196);
+    font-size: 2rem;
 }
 
 .body {
