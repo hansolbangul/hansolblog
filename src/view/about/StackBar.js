@@ -14,11 +14,12 @@ const StackBar = () => {
             window.removeEventListener('scroll', onScroll);
         };
     }, []);
+    console.log(position);
 
     const [state] = useState({
         series: [
             {
-                data: [78, 70, 67, 56, 58, 65, 68, 72, 84],
+                data: [81, 70, 67, 56, 58, 65, 68, 72, 68],
             },
         ],
         options: {
@@ -58,7 +59,7 @@ const StackBar = () => {
             <div className="aboutForm">
                 <h3>STACK</h3>
                 {position > 80 && (
-                    <div className="chart" style={{ opacity: (position - 80) / 50 }}>
+                    <div className="chart" style={{ opacity: (position - 190) / 100 }}>
                         <ReactApexChart
                             options={state.options}
                             series={state.series}

@@ -12,8 +12,9 @@
     width: 80vw;
     border: 0;
     height: 2px;
-    background-color: black;
-    margin: 50px auto 50px auto;
+    background-color: rgb(167, 165, 165);
+    margin: 2.5rem auto 2.5rem auto;
+    opacity: 75%;
 }
 
 .centerContain {

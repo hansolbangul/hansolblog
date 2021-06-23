@@ -1,0 +1,13 @@
+.folioForm {
+    width: 80vw;
+    margin: 130px auto 0 auto;
+}
+
+.folioCenter {
+    display: flex;
+    flex-direction: column;
+}
+
+.folioCenter p {
+    margin-top: 0;
+}

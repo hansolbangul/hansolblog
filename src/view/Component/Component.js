@@ -14,7 +14,9 @@ const Component = () => {
                 <Info />
                 <hr />
                 <WhoAMI />
+                <hr />
                 <Myself />
+                <hr />
                 <StackBar />
                 <hr />
                 <Portfolio />

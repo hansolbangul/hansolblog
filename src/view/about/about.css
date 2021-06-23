@@ -10,6 +10,26 @@
     align-self: center;
 }
 
+.centerAbout {
+    display: flex;
+    flex-direction: column;
+}
+
+.centerAbout hr {
+    width: 80vw;
+    border: 0;
+    height: 2px;
+    background-color: rgb(167, 165, 165);
+    margin: 2.5rem auto 2.5rem auto;
+    opacity: 75%;
+}
+
+.centerAbout img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 10px;
+}
+
 .aboutText p {
     margin: 0;
     font-size: 1rem;
