@@ -1,0 +1,16 @@
+.aboutForm {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.aboutText {
+    width: 100% -4rem;
+    margin: 0 2rem;
+}
+
+.aboutText p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}

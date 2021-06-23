@@ -2,6 +2,7 @@ import React from 'react';
 import Info from './Info';
 import Footer from '../Footer/Footer';
 import Portfolio from './Portfolio';
+import WhoAMI from '../about/WhoAMI';
 
 const Component = () => {
     return (
@@ -9,7 +10,10 @@ const Component = () => {
             <div className="columnContain">
                 <Info />
                 <hr />
+                <WhoAMI />
+                <hr />
                 <Portfolio />
+                <hr />
                 <Footer />
             </div>
         </div>

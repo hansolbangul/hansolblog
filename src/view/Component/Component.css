@@ -36,25 +36,47 @@
     line-height: 1.5;
 }
 
+.portThum {
+    width: calc((100% - 8rem - 16px) / 4);
+    height: 14rem;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px;
+    transition: 0.5s all;
+    margin: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(181, 181, 181);
+}
+
+.portThum:hover {
+    transform: translateY(-10px);
+    box-shadow: rgb(0 0 0 / 12%) 0px 12px 20px 0px;
+}
+
 .portfolio {
     flex-direction: column;
 }
 
 .pfForm {
+    /* display: flex; */
+    width: 100%;
+    color: black;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.pfForm img {
-    width: 50%;
+.portcodeThum {
+    width: 100%;
+    height: 80%;
 }
 
-.pfForm div {
-    width: 40%;
-    padding: 10px;
-    background-color: black;
+.portcodeThum img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid rgb(181, 181, 181);
 }
-
 .tag,
 .body {
     color: #fff;
@@ -67,4 +89,13 @@
 
 .body {
     margin-left: 4px;
+}
+
+.portInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    text-align: center;
 }

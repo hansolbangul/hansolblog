@@ -19,17 +19,26 @@ react.js로 만들어진 페이지에 js파일을 통해 markdown문서를 불�
 
 하.. 이 블로그를 통해서 경력을 쌓는 Front-end 개발자가 되고싶다.. 무엇보다 <b>취업</b>하고싶다 ㅋㅋㅋㅠㅠ
 
+그리고 앞으로 자주 보게 될 나의 고양이짤... 벌써부터 귀엽지않은가?
+
+![고먐미](https://user-images.githubusercontent.com/71314689/122957307-c3f72b00-d3bc-11eb-8411-4864c4f27618.jpeg)
+
+~~~js
+let a = 100;
+console.log("hello");
+~~~
+
 `;
 
 export const body = markdown;
 
-export const title = 'hello';
+export const title = '나만의 첫 블로그 게시!!';
 
 export const date = '2021-06-22';
 
-export const tag = ['html', 'css'];
+export const tag = ['일상'];
 
 export const thumbnail =
-    'https://user-images.githubusercontent.com/71314689/122886155-a903c700-d37a-11eb-9968-7ec6540a0896.png';
+    'https://user-images.githubusercontent.com/71314689/122957307-c3f72b00-d3bc-11eb-8411-4864c4f27618.jpeg';
 
-export const count = 1;
+export const count = 2;

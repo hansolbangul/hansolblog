@@ -38,7 +38,7 @@
 
 .postThum:hover {
     transform: translateY(-10px);
-    box-shadow: rgb(0 0 0 / 8%) 0px 12px 20px 0px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 12px 20px 0px;
 }
 
 .codeThum {
@@ -60,18 +60,37 @@
 }
 
 .postInfo h4 {
+    display: block;
+    /* margin-top: 1rem; */
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 1rem;
+    margin: 0;
+}
+
+.postTitle {
+    width: 100%;
+    font-size: 1rem;
+    height: 1rem;
     margin: 1rem 0;
 }
 
-.postInfo div {
+.postsub {
+    display: block;
     font-size: 0.875rem;
     height: 40%;
     margin: 0;
+    white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-.postInfo div h1 {
+.postInfo div h3 {
     font-size: 0.875rem;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
     margin: 0;
 }
 
@@ -92,10 +111,17 @@
 }
 
 .bodyContent {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .bodyContent img {
     width: 100%;
+}
+
+.newpost hr {
+    background-color: black;
+    height: 2px;
+    width: 80vw;
 }
