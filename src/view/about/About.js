@@ -7,7 +7,7 @@ import logo from '../Img/my.png';
 const About = () => {
     return (
         <div className="folioForm">
-            <div className="folioCenter">
+            <div className="centerAbout">
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     <img src={logo} alt={logo} />
                     <WhoAMI />

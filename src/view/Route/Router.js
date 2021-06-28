@@ -12,6 +12,8 @@ import CoinPrice from '../Portfolio/Coinprice';
 import Coingkoo from '../Portfolio/Coingkoo';
 import ScrollToTop from '../../ScrollToTop';
 import About from '../about/About';
+import Portfolio from '../Portfolio/Portfolio';
+import Vuepost from '../Portfolio/Vuepost';
 
 const Router = ({ posts }) => {
     return (
@@ -47,8 +49,14 @@ const Router = ({ posts }) => {
                         <Route exact path="/portfolio/coingkoo">
                             <Coingkoo />
                         </Route>
+                        <Route exact path="/portfolio/vuepost">
+                            <Vuepost />
+                        </Route>
                         <Route exact path="/about">
                             <About />
+                        </Route>
+                        <Route exact path="/portfolio">
+                            <Portfolio />
                         </Route>
                     </Switch>
                 </ScrollToTop>

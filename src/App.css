@@ -3,6 +3,16 @@ body {
     width: 100%;
     height: 100%;
 }
+@media screen and (min-width: 510px) and (max-width: 750px) {
+    html {
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 510px) {
+    html {
+        font-size: 40%;
+    }
+}
 
 .footer {
     display: flex;

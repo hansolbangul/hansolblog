@@ -54,7 +54,6 @@ const NewPost = ({ posts }, count) => {
             };
     });
 
-    console.log(post);
     const disqusShortname = 'http-hansolbangul-com-2';
     const disqusConfig = {
         url: `https://hansolbangul.com/post/${post.title}`,

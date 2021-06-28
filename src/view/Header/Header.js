@@ -12,7 +12,7 @@ const Header = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/portfolioInfo">Protfolio</Link>
+                        <Link to="/portfolio">Protfolio</Link>
                     </li>
                     <li>
                         <Link to="/post">post</Link>
@@ -26,13 +26,11 @@ const Header = () => {
                         <a href="https://github.com/hansolbangul">
                             <GithubOutlined />
                         </a>
-                        <p className="p1">github</p>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/han_solbangul/">
                             <InstagramOutlined />
                         </a>
-                        <p className="p2">instagram</p>
                     </li>
                 </ul>
             </div>

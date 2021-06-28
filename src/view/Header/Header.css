@@ -34,10 +34,10 @@
 
 .img {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 50px;
-    height: 50px;
+    top: 1.875rem;
+    left: 1.875rem;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .img span,
@@ -48,8 +48,8 @@
 
 .menu li {
     list-style: none;
-    margin-right: 15px;
-    font-size: 25px;
+    margin-right: 1.563rem;
+    font-size: 1.563rem;
     font-family: 'Hammersmith One', sans-serif;
     /* font-weight: 100; */
 }
@@ -59,39 +59,11 @@
 }
 
 li svg {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 a {
     color: black;
     text-decoration: none;
-}
-
-.menuBar p {
-    position: absolute;
-    font-size: 14px;
-    font-family: 'Baloo Tammudu 2', cursive;
-}
-
-.menuBar a:hover + .p1 {
-    transition: 2s;
-    opacity: 1;
-}
-
-.menuBar a:hover + .p2 {
-    transition: 2s;
-    opacity: 1;
-}
-
-.p1 {
-    right: 9.7vw;
-    top: 3vw;
-    opacity: 0;
-}
-
-.p2 {
-    right: 7vw;
-    top: 3vw;
-    opacity: 0;
 }

@@ -6,8 +6,9 @@ import cssgame from '../Img/cssgame.png';
 import hwitter from '../Img/hwitter.png';
 import tellus from '../Img/tellus.png';
 import coinprice from '../Img/coinPrice.png';
+import vuepost from '../Img/vuepost.png';
 
-const photoArr = [tellus, movie, coinprice, coingkoo, cssgame, hwitter];
+const photoArr = [tellus, movie, coinprice, coingkoo, cssgame, hwitter, vuepost];
 
 const Portfolio = () => {
     return (
