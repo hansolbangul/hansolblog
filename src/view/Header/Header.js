@@ -28,7 +28,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/han_solbangul/">
+                        <a href="https://www.instagram.com/_hansolbangul/">
                             <InstagramOutlined />
                         </a>
                     </li>
